@@ -12,7 +12,7 @@ const Navbar = () => {
         <nav className="max-w-7xl mx-auto p-5 py-[24px]">
           <div className="items-center justify-between hidden lg:flex">
             <h2 className="text-[25px] font-medium ibm_font text-[#12F7D6]">
-              <a className="flex items-center" href="/">
+              <a className="flex items-center" href="#">
                 <span>
                   <Image
                     className="mr-2"
