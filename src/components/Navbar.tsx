@@ -81,7 +81,7 @@ const Navbar = () => {
           {/*------small-screen-navbar--------*/}
           <div className="flex lg:hidden items-center justify-between">
             <h2 className="text-[25px] font-medium ibm_font text-[#12F7D6]">
-              <a className="flex items-center" href="/">
+              <Link className="flex items-center" href="/">
                 <span>
                   <Image
                     className="mr-2"
@@ -92,7 +92,8 @@ const Navbar = () => {
                   />
                 </span>
                 KULDEEP
-              </a>
+              </Link>
+              {/* <Link href="###">KULDEEP</Link> */}
             </h2>
             <div
               onClick={() => setNav(true)}
@@ -111,52 +112,58 @@ const Navbar = () => {
             >
               <ul className="flex flex-col gap-4">
                 <li>
-                  <a
+                  <Link
                     className=" text-white font-normal text-xl ibm_font hover:text-[#12F7D6] ease-in-out duration-300"
-                    href="#"
+                    href="##"
                   >
-                    Home
-                  </a>
+                    Contact Us
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className=" text-white font-normal text-xl ibm_font hover:text-[#12F7D6] ease-in-out duration-300"
-                    href="#"
+                    href="##"
                   >
-                    About Me
-                  </a>
+                    Contact Us
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className=" text-white font-normal text-xl ibm_font hover:text-[#12F7D6] ease-in-out duration-300"
-                    href="#"
+                    href="##"
                   >
-                    Skills
-                  </a>
+                    Contact Us
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className=" text-white font-normal text-xl ibm_font hover:text-[#12F7D6] ease-in-out duration-300"
-                    href="#"
+                    href="##"
                   >
-                    Works
-                  </a>
+                    Contact Us
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className=" text-white font-normal text-xl ibm_font hover:text-[#12F7D6] ease-in-out duration-300"
-                    href="#"
+                    href="##"
                   >
-                    Blogs
-                  </a>
+                    Contact Us
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  {/*   <a
                     className=" text-white font-normal text-xl ibm_font hover:text-[#12F7D6] ease-in-out duration-300"
                     href="#"
                   >
                     Contact Us
-                  </a>
+                  </a> */}
+                  <Link
+                    className=" text-white font-normal text-xl ibm_font hover:text-[#12F7D6] ease-in-out duration-300"
+                    href="##"
+                  >
+                    Contact Us
+                  </Link>
                 </li>
                 <li
                   onClick={() => setNav(false)}
