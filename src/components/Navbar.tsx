@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import klogo from "../img/svg/k-logo.svg";
 import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -27,52 +28,52 @@ const Navbar = () => {
             </h2>
             <ul className="flex items-center gap-6">
               <li>
-                <a
+                <Link
                   className=" text-white font-normal text-xl ibm_font hover:text-[#12F7D6] ease-in-out duration-300"
-                  href="#"
+                  href="/"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className=" text-white font-normal text-xl ibm_font hover:text-[#12F7D6] ease-in-out duration-300"
-                  href="#"
+                  href="AboutMw"
                 >
                   About Me
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className=" text-white font-normal text-xl ibm_font hover:text-[#12F7D6] ease-in-out duration-300"
-                  href="#"
+                  href="Skills"
                 >
                   Skills
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className=" text-white font-normal text-xl ibm_font hover:text-[#12F7D6] ease-in-out duration-300"
-                  href="#"
+                  href="Works"
                 >
                   Works
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className=" text-white font-normal text-xl ibm_font hover:text-[#12F7D6] ease-in-out duration-300"
-                  href="#"
+                  href="Blogs"
                 >
                   Blogs
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className=" text-white font-normal text-xl ibm_font hover:text-[#12F7D6] ease-in-out duration-300"
-                  href="#"
+                  href="ContactUs"
                 >
                   Contact Us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
